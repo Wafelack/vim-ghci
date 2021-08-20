@@ -1,0 +1,55 @@
+*ghci.txt*  a Haskell REPL inside Vim
+
+Author:  Wafelack <wafelack@riseup.net>
+License: GPL-3.0-or-later
+
+====================================================================
+COMMANDS                                             *ghci-commands*
+
+                                                         *:GHCiOpen*
+:GHCiOpen       Open a new GHCi buffer.
+                                                         *:GHCiEval*
+:GHCiEval       Evaluate the line under the cursor inside GHCi.
+
+====================================================================
+FUNCTIONS                                           *ghci-functions*
+
+  Name              Description ~
+  
+  SetupGHCi()       Create the .ghci file, open a GHCi buffer and set the file type.
+  DestroyGHCi()     Cleanly exit GHCi and delete files.
+  RunCode(code)     Run {code} inside GHCi.
+  RunLine()         Give the current line to {RunCode}.
+
+====================================================================
+MAPPINGS                                             *ghci-mappings*
+
+  Mapping           Description ~
+
+  <leader>ge        Evaluate the line under the cursor inside GHCi. (calls |:GHCiEval|)
+  <leader>gc        Clean the commands file (.vim.ghci)
+  <leader>gk        Quit GHCi cleanly.
+
+====================================================================
+CONFIGURATION VARIABLES                           *ghci-config-vars*
+
+g:mapleader         ``Leader'' key, prefix for keybindings.
+                    Default: <SPACE>
+
+g:ghci_open_split   Where to open the GHCi buffer.
+                    Default: 0
+                    Values:
+                        0       Edit in a vertical split.
+                        1       Edit in the current window.
+                        2       Edit in a horizontal split.
+                        3       Edit in a new tab.
+g:ghci_prefix       The string used to prefix GHCi output lines.
+                    Default: "-- "
+
+====================================================================
+ABOUT                                                   *ghci-about*
+
+The source code for this plugin can be found at https://github.com/wafelack/vim-ghci.
+Last edited: 08-20-2021
+
+  vim:tw=78:et:ft=help:norl:
