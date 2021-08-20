@@ -1,0 +1,4 @@
+* Follow the https://www.conventionalcommits.org/en/v1.0.0/[conventional commits] commit guideline.
+* Patches should be a single commit or, exceptionnaly, a series of atomic commits, if a change is requested, consider changing your current commits instead of creating new ones.
+
+Happy hacking.

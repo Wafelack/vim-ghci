@@ -1,0 +1,41 @@
+== ghci.vim
+
+GHCi integrated in a Vim buffer.
+
+=== Configuration variables
+
+* +g:mapleader+
+** Description: ``Leader'' key, prefix for keybindings.
+** Default: +<SPACE>+
+* +g:ghci_open_split+
+** Description: Where to open the GHCi buffer.
+** Default: +0+
+** Values:
+*** +0+: Edit in a vertical split.
+*** +1+: Edit in the current window.
+*** +2+: Edit in a horizontal split.
+*** +3+: Edit in a new tab.
+* +g:ghci_prefix+
+** Description: The string used to prefix GHCi output lines.
+** Default: +"-- "+
+
+=== Keybindings
+
+* +<leader>ge+: Run the current line inside GHCi.
+* +<leader>gc+: Clean the commands file.
+* +<leader>gk+: Exit GHCi cleanly.
+
+You can find a more complete documentation at link:docs/[docs/ folder].
+
+=== Roadmap
+
+* [x] Line execution.
+* [ ] Multiline execution.
+
+=== Installation
+
+Know your tools.
+
+=== License
+
+Copyright (C) Wafelack. Distributed under the GNU General Public License version 3.0 or any later version.
