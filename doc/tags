@@ -1,8 +1,0 @@
-:GHCiEval	ghci.txt	/*:GHCiEval*
-:GHCiOpen	ghci.txt	/*:GHCiOpen*
-ghci-about	ghci.txt	/*ghci-about*
-ghci-commands	ghci.txt	/*ghci-commands*
-ghci-config-vars	ghci.txt	/*ghci-config-vars*
-ghci-functions	ghci.txt	/*ghci-functions*
-ghci-mappings	ghci.txt	/*ghci-mappings*
-ghci.txt	ghci.txt	/*ghci.txt*
