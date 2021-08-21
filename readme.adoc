@@ -4,7 +4,7 @@ GHCi integrated in a Vim buffer.
 
 === Documentation
 
-You can find the Vim documentation file at link:docs/[docs/ folder].  
+You can find the Vim documentation file in the link:docs/[docs/ folder]. +
 You can also run the +help ghci.txt+ command inside Vim.
 
 === Roadmap
