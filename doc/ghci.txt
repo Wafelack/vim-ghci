@@ -7,9 +7,9 @@ License: GPL-3.0-or-later
 COMMANDS                                             *ghci-commands*
 
                                                          *:GHCiOpen*
-:GHCiOpen       Open a new GHCi buffer.
+`:GHCiOpen`       Open a new GHCi buffer.
                                                          *:GHCiEval*
-:GHCiEval       Evaluate the line under the cursor inside GHCi.
+`:GHCiEval`       Evaluate the line under the cursor inside GHCi.
 
 ====================================================================
 FUNCTIONS                                           *ghci-functions*
