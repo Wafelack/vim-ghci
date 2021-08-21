@@ -31,6 +31,7 @@ You can find a more complete documentation at link:docs/[docs/ folder].
 
 * [x] Line execution.
 * [ ] Multiline execution.
+* [ ] Text object execution.
 
 === Installation
 
